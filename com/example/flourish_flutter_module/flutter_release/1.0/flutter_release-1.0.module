@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.flourish_flutter_module",
+    "module": "flutter_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-b4fb11214dd2dda6ce012dd98ea498e9e8b91262"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "armeabi_v7a_release",
+          "version": {
+            "requires": "1.0.0-b4fb11214dd2dda6ce012dd98ea498e9e8b91262"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "arm64_v8a_release",
+          "version": {
+            "requires": "1.0.0-b4fb11214dd2dda6ce012dd98ea498e9e8b91262"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_64_release",
+          "version": {
+            "requires": "1.0.0-b4fb11214dd2dda6ce012dd98ea498e9e8b91262"
+          }
+        },
+        {
+          "group": "com.flourishfi.flourish_flutter_sdk",
+          "module": "flourish_flutter_sdk_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.webviewflutter",
+          "module": "webview_flutter_android_release",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_release-1.0.aar",
+          "url": "flutter_release-1.0.aar",
+          "size": 5148435,
+          "sha512": "962007b8c2d1ff87e6786f37a9dd75efd4dd4878d1c5fbc0b473d2114761249729f150e4622b37e2b4e8d46665e356c807f140daae4242ea00e7175a7dff2882",
+          "sha256": "8c58bfaaf96529dc992c93fa7d6c99b0983c1682e1d49c31fe349fd59cb2dd6e",
+          "sha1": "0c533953c9ef6e770da296a855eaa36734944d21",
+          "md5": "062827a854cab0da11a34baffd9af1d5"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-b4fb11214dd2dda6ce012dd98ea498e9e8b91262"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "armeabi_v7a_release",
+          "version": {
+            "requires": "1.0.0-b4fb11214dd2dda6ce012dd98ea498e9e8b91262"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "arm64_v8a_release",
+          "version": {
+            "requires": "1.0.0-b4fb11214dd2dda6ce012dd98ea498e9e8b91262"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_64_release",
+          "version": {
+            "requires": "1.0.0-b4fb11214dd2dda6ce012dd98ea498e9e8b91262"
+          }
+        },
+        {
+          "group": "com.flourishfi.flourish_flutter_sdk",
+          "module": "flourish_flutter_sdk_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.webviewflutter",
+          "module": "webview_flutter_android_release",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_release-1.0.aar",
+          "url": "flutter_release-1.0.aar",
+          "size": 5148435,
+          "sha512": "962007b8c2d1ff87e6786f37a9dd75efd4dd4878d1c5fbc0b473d2114761249729f150e4622b37e2b4e8d46665e356c807f140daae4242ea00e7175a7dff2882",
+          "sha256": "8c58bfaaf96529dc992c93fa7d6c99b0983c1682e1d49c31fe349fd59cb2dd6e",
+          "sha1": "0c533953c9ef6e770da296a855eaa36734944d21",
+          "md5": "062827a854cab0da11a34baffd9af1d5"
+        }
+      ]
+    }
+  ]
+}
